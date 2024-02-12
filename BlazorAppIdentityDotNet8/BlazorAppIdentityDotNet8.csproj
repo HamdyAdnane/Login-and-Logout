@@ -8,16 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\BlazorAppIdentityDotNet8.Client\Pages\Card.razor" Link="Card.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BlazorAppIdentityDotNet8.Client\BlazorAppIdentityDotNet8.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+    <PackageReference Include="MudBlazor" Version="6.12.0" />
+    <PackageReference Include="Syncfusion.Blazor" Version="24.1.43" />
   </ItemGroup>
 
 </Project>

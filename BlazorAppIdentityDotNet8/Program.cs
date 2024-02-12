@@ -1,10 +1,11 @@
-using BlazorAppIdentityDotNet8.Client.Pages;
+using BlazorAppIdentityDotNet8;
 using BlazorAppIdentityDotNet8.Components;
 using BlazorAppIdentityDotNet8.Components.Account;
-using BlazorAppIdentityDotNet8.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

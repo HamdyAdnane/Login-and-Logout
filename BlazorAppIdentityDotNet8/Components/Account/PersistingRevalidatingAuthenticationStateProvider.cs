@@ -1,5 +1,4 @@
 using BlazorAppIdentityDotNet8.Client;
-using BlazorAppIdentityDotNet8.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;

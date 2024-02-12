@@ -1,4 +1,3 @@
-using BlazorAppIdentityDotNet8.Data;
 using Microsoft.AspNetCore.Identity;
 
 namespace BlazorAppIdentityDotNet8.Components.Account
